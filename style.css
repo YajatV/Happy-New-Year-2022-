@@ -1,0 +1,48 @@
+body{
+    background-size:cover;
+    background-repeat:no-repeat;
+    }
+
+h3{
+        font-size:25px !important; 
+    }
+
+.div_h4 img{
+        width: 50%;
+        height: 50%;
+        position: bottom;
+    }
+    
+.btn-success:hover{
+        background-color:red;
+    }
+
+.heading{
+        font-size:30px;
+        width:100%;
+        margin:0px;
+        box-shadow: 5px 5px 5px white;
+    }
+    
+#start{
+        font-size:18px;
+        animation-name: example;
+        animation-duration: 3s;
+    }
+@keyframes example {
+        0%{top:0px;}
+        50%{top:20px;}
+        100%{top:0px;}
+    }
+    
+.play{
+    margin-top:20px;
+    box-shadow:5px 5px 5px gray;
+    border-radius: 5px solid white;
+}
+   
+canvas{
+    box-shadow: 5px 5px 5px gray;
+    border-radius:  10px;
+    background-color: whitesmoke;
+}
